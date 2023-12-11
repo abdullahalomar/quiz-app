@@ -12,7 +12,34 @@ const quizData = [
     correctAnswer: "Mars",
     userAnswer: null,
   },
-  // Add more questions as needed
+  {
+    question: "What is the largest ocean on Earth?",
+    options: [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Southern Ocean",
+      "Pacific Ocean",
+    ],
+    correctAnswer: "Pacific Ocean",
+    userAnswer: null,
+  },
+  {
+    question: 'Who wrote the play "Romeo and Juliet"?',
+    options: [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Jane Austen",
+      "F. Scott Fitzgerald",
+    ],
+    correctAnswer: "William Shakespeare",
+    userAnswer: null,
+  },
+  {
+    question: 'Which element has the chemical symbol "O"?',
+    options: ["Oxygen", "Gold", "Silver", "Uranium"],
+    correctAnswer: "Oxygen",
+    userAnswer: null,
+  },
 ];
 
 let currentQuestionIndex = 0;
